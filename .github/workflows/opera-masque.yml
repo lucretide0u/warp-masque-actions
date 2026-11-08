@@ -1,9 +1,9 @@
 name: Opera over MASQUE（套娃）
 
 on:
-  schedule:
+  # schedule:
     # 每天的 0点、4点、8点、12点、16点、20点触发 (UTC时间)
-    - cron: '0 */4 * * *'
+    # - cron: '0 */4 * * *'
   workflow_dispatch:
     inputs:
       device_name:
